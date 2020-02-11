@@ -26,6 +26,11 @@ O link "Detalhes" nos leva a uma página contendo o nome, a descrição e issues
 
 Cada issue tem um link para a página da respectiva issue no github.
 obs. O site tem 2 páginas.
+
+Para iniciar o App, no terminal:
+```
+yarn start
+```
 <p>
 
 <h1>Criando o projeto:</h1>

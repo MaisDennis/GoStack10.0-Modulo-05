@@ -1,4 +1,11 @@
-<h1>Conceitos abordados:</h1>
+# GoStack 10.0 || Módulo 05
+
+* [1. Conceitos abordados](#1-conceitos-abordados)
+* [2. Descrição do projeto](#2-descrição-do-projeto)
+* [3. Iniciando o Projeto](#3-iniciando-o-projeto)
+* [4. Criando o projeto](#4-criando-o-projeto)
+
+##  1. Conceitos abordados
 
 1. Iniciar um projeto react-app.
 2. Incluir ESLint, Prettier & EditorConfig.
@@ -12,22 +19,23 @@
    1. **componentDidMount e componentDidUpdate** (Carregar e Salvar no LocalStorage, respectivamente).
 8. Utilizar o { Link } from 'react-router-dom'.
 
-<h1>Descrição do projeto:</h1>
+##  2. Descrição do projeto
 
-<p>
 Um site para buscar repositórios no Github, retornando o nome, a descrição e issues atuais presentes no repositório.
 A pagina principal cria uma lista de repositórios procurados, e em cada item, traz um link.
 
+### Main
 ![Main](https://github.com/MaisDennis/GoStack10.0-Modulo-05/blob/master/src/assets/Main.png)
 
 O link "Detalhes" nos leva a uma página contendo o nome, a descrição e issues.
 
+### Repo
 ![Repo](https://github.com/MaisDennis/GoStack10.0-Modulo-05/blob/master/src/assets/Repo.png)
 
 Cada issue tem um link para a página da respectiva issue no github.
 obs. O site tem 2 páginas.
 
-Para iniciar o App, no terminal:
+##  4. Criando o projeto
 ```
 yarn start
 ```
